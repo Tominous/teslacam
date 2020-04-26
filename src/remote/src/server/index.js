@@ -7,9 +7,9 @@
 const express = require('express');
 const serveIndex = require('serve-index');
 const errorhandling = require('errorhandler');
-// const {
-//     BACKUP_DIR
-// } = require('./../../../etc/config.js');
+ const {
+     BACKUP_DIR
+ } = require('./../../../etc/config.js');
 const cors = require('cors');
 
 const app = express();
